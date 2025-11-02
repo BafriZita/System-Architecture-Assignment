@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-section">
+      <div class="form-left">
+        <img src="./asset1.png" alt="img" class="img" />
+      </div>
+      <div class="form-right">
+        <h2>Create an account</h2>
+        <form id="registerForm">
+  <input
+    class="input"
+    type="text"
+    id="first_name"
+    name="first_name"
+    placeholder="First Name"
+    required
+  />
+  <input
+    class="input"
+    type="text"
+    id="last_name"
+    name="last_name"
+    placeholder="Last Name"
+    required
+  />
+  <input
+    class="input"
+    type="text"
+    id="phone_number"
+    name="phone_number"
+    placeholder="Phone Number"
+    required
+  />
+  <input
+    class="input"
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Email Address"
+    required
+  />
+  <div class="password-container">
+    <input
+      class="input"
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+      required
+    />
+            <span class="toggle-password" id="togglePassword"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-eye-slash"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.79.588l.77.771A6 6 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755q-.247.248-.517.486z"
+                />
+                <path
+                  d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829"
+                />
+                <path
+                  d="M3.35 5.47q-.27.24-.518.487A13 13 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12z"
+                />
+              </svg>
+            </span>
+          </div>
+
+          <div class="label">
+            <input type="checkbox" name="agree" required />
+            <span>
+              I agree with the
+              <a
+                href="/terms.html"
+                target="_blank"
+                class="underline"
+                rel="noopener"
+                >Terms of Service</a
+              >
+              and the
+              <a
+                href="/privacy.html"
+                target="_blank"
+                class="underline"
+                rel="noopener"
+                >Privacy Policy</a
+              >.
+            </span>
+          </div>
+          <button type="submit">Sign Up</button>
+          <p id="message"></p>
+        </form>
+        <div class="social">
+          <div class="or-sign">
+            <span class="line"></span
+            ><span class="sign-text">Or Sign Up with</span>
+          </div>
+          <div class="sign-icons">
+            <div class="sign-up">
+              <svg
+                class="svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-google"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"
+                />
+              </svg>
+            </div>
+            <div class="sign-up">
+              <svg
+                class="svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                />
+              </svg>
+            </div>
+            <div class="sign-up">
+              <svg
+                class="svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <p class="account">
+          Already have an account?
+          <a href="login.html" class="underline"> Sign In</a>
+        </p>
+      </div>
+    </div>
+    <script>
+    // 👁 Toggle password visibility
+    const togglePassword = document.querySelector("#togglePassword");
+    const password = document.querySelector("#password");
+    togglePassword.addEventListener("click", () => {
+      const type = password.getAttribute("type") === "password" ? "text" : "password";
+      password.setAttribute("type", type);
+      togglePassword.classList.toggle("bi-eye");
+      togglePassword.classList.toggle("bi-eye-slash");
+    });
+
+    // 💾 Submit form to backend
+   document.getElementById("registerForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const first_name = document.getElementById("first_name").value.trim();
+  const last_name = document.getElementById("last_name").value.trim();
+  const phone_number = document.getElementById("phone_number").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value.trim();
+  const message = document.getElementById("message");
+
+  try {
+    const res = await fetch("http://localhost:5000/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ first_name, last_name, phone_number, email, password })
+    });
+
+    const data = await res.json();
+
+    if (res.ok) {
+      message.textContent = data.message;
+      message.style.color = "green";
+    } else {
+      message.textContent = data.error || "Registration failed";
+      message.style.color = "red";
+    }
+  } catch (error) {
+    message.textContent = "Error connecting to server.";
+    message.style.color = "red";
+  }
+});
+
+  </script>
+</body>
+</html>
+  </body>
+</html>
